@@ -1,4 +1,4 @@
-# gst_search
+# GST Number Search Tool
 
 A new Flutter project.
 
