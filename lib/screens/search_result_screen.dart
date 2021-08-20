@@ -88,7 +88,9 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                               snapshot.data!.status,
                               style: TextStyle(color: Colors.white),
                             ),
-                            backgroundColor: Colors.green,
+                            backgroundColor: snapshot.data!.status == 'Active'
+                                ? Colors.green
+                                : Colors.red,
                           ),
                         ],
                       ),
